@@ -1,16 +1,20 @@
-# taskapp
+# Daily Task App
 
-A new Flutter project.
+## Используемые библиотеки
+* Riverpod (для управления состоянием)
+* Shared Preferences (для сохранения данных в локальном хранилище)
 
-## Getting Started
+## Какой подход вы использовали для управления состоянием?
+Использовал библиотеку Riverpod для управления состоянием. Я часто использую её в своих проектах, потому что она простая и лёгкая.
 
-This project is a starting point for a Flutter application.
+## View
+Папка View содержит интерфейс.
 
-A few resources to get you started if this is your first Flutter project:
+## Model
+Эта папка содержит единственный необходимый класс: модель Task.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Widgets
+В этой папке я создал пользовательские текстовое поле и кнопку.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Constants
+В этой папке я создал мини-предопределённые цвета для проекта и расширение для получения полной ширины и полной высоты экрана.
